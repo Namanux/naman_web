@@ -8,13 +8,14 @@ import {
   MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar"
+import { ModeToggle } from "../ModeToggle"
 const Header = () => {
   return (
 
   <div>
-  <Menubar>
+  <Menubar className="bg-secondary text-secondary-foreground">
     <MenubarMenu>
-    <div className="pt-4">
+    <div>
     <div>Naman</div>
       <div>Ui/UX FUll stack devloer</div>
     </div>
@@ -22,6 +23,7 @@ const Header = () => {
     <MenubarTrigger>File</MenubarTrigger>
     <MenubarTrigger>File</MenubarTrigger>
     <MenubarTrigger>File</MenubarTrigger>
+    <ModeToggle />
     <MenubarContent>
       <MenubarItem>
         New Tab <MenubarShortcut>⌘T</MenubarShortcut>

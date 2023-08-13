@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/layouts/Footer'
+import { ThemeProvider } from '@/components/theme-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex flex-col h-screen justify-between">
           <Header />
            {children}
           <Footer />
         </div>
+      </ThemeProvider>
         </body>
     </html>
   )
