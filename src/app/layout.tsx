@@ -1,8 +1,7 @@
-import Header from '@/components/layouts/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/layouts/Footer'
+import Nav from '@/components/layouts/NavBar/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,9 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-col h-screen justify-between">
-          <Header />
+          <Nav />
            {children}
-          <Footer />
         </div>
         </body>
     </html>
