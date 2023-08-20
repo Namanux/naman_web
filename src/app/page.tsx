@@ -1,12 +1,12 @@
-import Footer from "@/components/layouts/Footer"
-import Header from "@/components/layouts/Header"
-import { Button } from "@/components/ui/button"
+import Hero from "@/components/home/Hero";
+
 export default function Home() {
   return (
     <main className="mb-auto">
       
-      
+      <Hero />
     
     </main>
+    
   )
 }
