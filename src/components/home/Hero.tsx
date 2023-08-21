@@ -1,7 +1,7 @@
 function Hero() {
     return (
         <div>
-            Enter
+            Test
         </div>
     );
 }
