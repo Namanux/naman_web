@@ -1,7 +1,7 @@
 function page() {
     return (
         <div>
-            Enter
+            this is work page
         </div>
     );
 }

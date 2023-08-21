@@ -1,7 +1,7 @@
 function page() {
     return (
         <div>
-            Enter
+            This is get in touch page
         </div>
     );
 }
