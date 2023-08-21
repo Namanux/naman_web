@@ -1,10 +1,9 @@
-"use client"
-
+'use client'
 import * as React from "react"
-
 import { Progress } from "@/components/ui/progress"
 
-function ProgressDemo({score}) {
+
+function ProgressDemo ({score}:{score:number}) {
   const [progress, setProgress] = React.useState(16)
 
   React.useEffect(() => {
