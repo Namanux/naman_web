@@ -9,8 +9,8 @@ import ProgressDemo from "./Progress";
 function ProgressListMap() {
     return (
         <div>
-            {ProgressListData.map((i:ProgressListDataType)=>(
-                <div key={i.id}>{i.label}<ProgressDemo score={i.progressScore}/></div>))};
+            {ProgressListData.map((i:ProgressListDataType )=>(
+             <div key={i.id}>{i.id}--{i.label}<ProgressDemo score={i.progressScore}/></div>))}
         </div>
     );
 }

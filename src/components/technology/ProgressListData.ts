@@ -20,6 +20,5 @@ export const ProgressListData:Array<ProgressListDataType> = [
     {id: 12,label: "Adobe PHOTOSHOP",href: "/", progressScore:80},
     {id: 13,label: "Adobe LIGHTROOM",href: "/", progressScore:80},
     {id: 14,label: "Adobe Premierpro",href: "/", progressScore:80},
-    {id: 15,label: "InkScape",href: "/", progressScore:80},
-    
+    {id: 15,label: "InkScape",href: "/", progressScore:80}
     ]
