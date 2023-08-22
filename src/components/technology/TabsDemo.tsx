@@ -29,12 +29,12 @@ export function TabsDemo() {
       </TabsList>
       <TabsContent value="account">
         <Card>
-          <CardHeader>
+          {/* <CardHeader>
             <CardTitle>Account</CardTitle>
             <CardDescription>
               Make changes to your account here. Click save when you're done.
             </CardDescription>
-          </CardHeader>
+          </CardHeader> */}
           <CardContent className="space-y-2">
             <div className="space-y-1">
               <Label htmlFor="name">Name</Label>
