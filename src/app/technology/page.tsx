@@ -1,8 +1,8 @@
-import ProgressListMap from "@/components/technology/ProgressListMap";
+import TabProgressListMap from "@/components/technology/TabProgressListMap";
 function page() {
     return (
-        <div className="flex justify-center">
-            <ProgressListMap />
+        <div className="flex justify-center mt-10">
+            <TabProgressListMap />
         </div>
     );
 }
